@@ -2,11 +2,15 @@
 @import  'utilities/mixins',
          'utilities/variables';
 
+// Base Styles     
+@import  'base/base',
+         'base/typography';
 
 // Component Styles
 @import 'components/buttons',
-        'components/header',
+        'components/form',
         'components/grid',
         'components/images',
+        'components/jombotron',
         'components/nav';
 

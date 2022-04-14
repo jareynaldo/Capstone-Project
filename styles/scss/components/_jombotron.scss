@@ -8,6 +8,7 @@
     background-color: black;
     background-image: url('../../../images/Star-field-hubble-deep.jfif');
     background-size: cover;
+    margin-bottom: 0;
 }
 img{
     width: 90%;
@@ -24,4 +25,7 @@ img{
 .lead{
     background-color: rgba(226, 226, 226, 0.145);
     padding: 5px;
+}
+#projects{
+    border-bottom: none;
 }

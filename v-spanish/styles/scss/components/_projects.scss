@@ -1,0 +1,32 @@
+// ======================================
+//  Project styles
+// ======================================
+
+.card{
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 20%;
+    img{
+        box-shadow: none;
+        width: 90%;
+    }
+    @media (min-width: 768px) { 
+        // width: 90%;
+        margin-left: 10%;
+     }
+}
+.projects{
+
+ 
+  border-left: 5px solid $color-default;
+  border-bottom: 5px solid $color-default;
+  width: 80%;
+  margin-left: 20%;
+  @media (min-width: 768px) { 
+    width: 90%;
+    margin-left: 10%;
+ }
+}
+.card{
+    background-color: $color-primary-light;
+}

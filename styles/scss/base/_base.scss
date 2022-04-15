@@ -11,6 +11,10 @@ body{
     background-repeat: repeat;
 }
 
+.flip{
+    transform: rotate(360deg);
+    transition: 1s ease-in-out transform;
+}
 
 footer {
     width: 100%;

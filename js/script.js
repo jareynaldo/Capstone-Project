@@ -15,3 +15,15 @@ function reveal() {
   }
   
   window.addEventListener("scroll", reveal);
+
+let flip = document.querySelector("#flip");
+let body =  document.querySelector("body");
+
+
+flip.addEventListener('click', ()=>{
+  body.className += " flip "
+  let setTime = setTimeout( reset, 1000);
+});
+function reset(){
+  body.className = "";
+}

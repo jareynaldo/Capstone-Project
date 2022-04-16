@@ -18,8 +18,6 @@ function reveal() {
 
 let flip = document.querySelector("#flip");
 let body =  document.querySelector("body");
-
-
 flip.addEventListener('click', ()=>{
   body.className += " flip "
   let setTime = setTimeout( reset, 1000);

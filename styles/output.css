@@ -8,6 +8,9 @@ body {
   background-repeat: repeat;
 }
 
+a{
+  color: black;
+}
 .flip {
   transform: rotate(360deg);
   transition: 1s ease-in-out transform;
@@ -103,7 +106,6 @@ footer #socals-jumbo {
 
 .left-adding {
   margin-left: 30%;
-  display: block;
   margin-top: 10px;
 }
 
@@ -197,4 +199,3 @@ nav ul {
   color: #1f1f1f;
 }
 
-/*# sourceMappingURL=output.css.map */
